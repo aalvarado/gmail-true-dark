@@ -252,7 +252,7 @@
     }
     
     /* spam button and notice */
-    .bzx .bzr:hover {
+    .bzx, .bzr:hover {
         background-color: #222;
         color: #cccccd;
     }
