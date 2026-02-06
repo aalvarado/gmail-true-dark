@@ -1,115 +1,110 @@
 /* ==UserStyle==
 @name           Gmail True Dark Mode
 @namespace      github.com/aalvarado/gmail-true-dark
-@version        1.0.2
+@version        1.0.3
 @description    True dark mode builds on top of Gmails dark mode but for the rest of the elements
 @author         @aalvarado
 ==/UserStyle== */
 
 @-moz-document domain("mail.google.com") {
-    .HM .ahe::before {
-        border: 0px !important;
-    }
-    
-    /* compose button */
-    
-        .J-M,
-    [role="navigation"] [role="button"] 
-    
-    {
-        background-color: #333 !important;
-        box-shadow: none !important;
-        border: 1px solid #222 !important;
-        color: #ddd !important;
-    }
-    
-    /* dropdowns */
-    .bAp.b8.UC .vh,
-    .ajA,
-    .nH .Hy .m,
-    .J-N-JT,
-    .J-JK-JT,
-    .J-LC-JT,
-    form[role="search"],
-    form[role="search"] table,
-    form[role="search"] div,
-    form[role="search"] td
-    
-    {
-        background-color: #1c1c1c !important;
-    }
-    
-    .az9,
-    .agP,
-    .aoU, .az4,
-    .aoI,
-    .aoT,
-    .Hp,
-    .nH .Hy .m,
-    .J-N-Jz,
-    .J-JK-Jz,
-    [role="menuitemcheckbox"],
-    form[role="search"],
-    form[role="search"] table,
-    form[role="search"] div,
-    form[role="search"] td
-    
-    {
-        color: #ddd !important;
-    }
-    
-    
-    .ZF-z6, .ZF-zT, .ZF-Av .lJ, .ZF-Av .lN,
-    .aaZ,
-    .aoT,
+  .HM .ahe::before {
+    border: 0px !important;
+  }
 
-    .la-k .la-m,
-    #loading,
-    .HM .ahe::after,
-    .aDg > .aDj,
-    .azX,
-    .nr,
-    .iY,
-    .IG,
-    .GQ,
-    .Ap,
-    .aoP .Ar,
-    .Am,
-    .aDg > .aDj,
-    .J-Z,
-    .aC3,
-    .aC2,
-    .aDg > .aDj,
-    .HM .ahe::before,
-    .agP,
-    .agh, .bbV,
-    .aGb,
-    .wO
-    {
-        background-color: #222 !important;
-    }
-    
-    .HM .I5 {
-        border: 1px solid #444 !important;
-    }
-    
-    .afC,
-    .nr,
-    [aria-label="Search mail"],
-    .amn > .ams,
-    .az9 .aDp,
-    .IG .Iy .az9 {
-        color: #999 !important;
-    }
-    
-    .az9,
-    .im
-    {
-        color: #666 !important;
-    }
-    
-    /* text */
-    .bs1 + .bs3, .btj + .aD,
+  /* compose button */
+
+  .J-M,
+  [role="navigation"] [role="button"] {
+    background-color: #333 !important;
+    box-shadow: none !important;
+    border: 1px solid #222 !important;
+    color: #ddd !important;
+  }
+
+  /* dropdowns */
+  .bAp.b8.UC .vh,
+  .ajA,
+  .nH .Hy .m,
+  .J-N-JT,
+  .J-JK-JT,
+  .J-LC-JT,
+  form[role="search"],
+  form[role="search"] table,
+  form[role="search"] div,
+  form[role="search"] td {
+    background-color: #1c1c1c !important;
+  }
+
+  .az9,
+  .agP,
+  .aoU,
+  .az4,
+  .aoI,
+  .aoT,
+  .Hp,
+  .nH .Hy .m,
+  .J-N-Jz,
+  .J-JK-Jz,
+  [role="menuitemcheckbox"],
+  form[role="search"],
+  form[role="search"] table,
+  form[role="search"] div,
+  form[role="search"] td {
+    color: #ddd !important;
+  }
+
+  .ZF-z6,
+  .ZF-zT,
+  .ZF-Av .lJ,
+  .ZF-Av .lN,
+  .aaZ,
+  .aoT,
+  .la-k .la-m,
+  #loading,
+  .HM .ahe::after,
+  .aDg > .aDj,
+  .azX,
+  .nr,
+  .iY,
+  .IG,
+  .GQ,
+  .Ap,
+  .aoP .Ar,
+  .Am,
+  .aDg > .aDj,
+  .J-Z,
+  .aC3,
+  .aC2,
+  .aDg > .aDj,
+  .HM .ahe::before,
+  .agP,
+  .agh,
+  .bbV,
+  .aGb,
+  .wO {
+    background-color: #222 !important;
+  }
+
+  .HM .I5 {
+    border: 1px solid #444 !important;
+  }
+
+  .afC,
+  .nr,
+  [aria-label="Search mail"],
+  .amn > .ams,
+  .az9 .aDp,
+  .IG .Iy .az9 {
+    color: #999 !important;
+  }
+
+  .az9,
+  .im {
+    color: #666 !important;
+  }
+
+  /* text */
+  .bs1 + .bs3, .btj + .aD,
     .ado b,
     .hx,
     .hx .gD,
@@ -134,126 +129,148 @@
     .msgb,
     .J-M,
     .J-N,
-    .agd .J-M-JJ input /* input for dropdown */
-    {
-        color: #ddd !important;
-    }
-    
+    .agd .J-M-JJ input /* input for dropdown */ {
+    color: #ddd !important;
+  }
 
-    
-    .agd .J-M-JJ input, /* input for dropdown */
+  .agd .J-M-JJ input, /* input for dropdown */
     .la-i div,
     [role="navigation"] [role="button"],
     .aYy,
    
-    .gt figcaption
-    
-    {
-        background-color: #1c1c1c !important;
-        border-radius: 4px;
-    }
-    
-    .gsib_a.gb_jf.aJh,
-    form[role="search"] tr:hover td,
-    form[role="search"] tr:hover td div,
-    .gt div:not(.aYy):not([role="button"]):not([role="menu"]):not([role="menuitemcheckbox"]):not([role="menuitem"]),
-    .gt td,
-    .gt span,
-    .gt table,
-    .gt h1,
-    .gt h2,
-    .gt h3,
-    .gt h4,
-    .gt h5,
-    .gt h6,
-    .gt table tbody tr td,
-    .gt a,
-    .gt p,
-    .gt ul,
-    .gt li,
-    .gt center,
-    [bgcolor] *,
-    .gstt tbody tr td table tbody tr:hover,
-    form[role="search"] div .gstt tbody tr:hover
-    {
-        background-color: transparent !important;
-    }
-    
-    
-    .afC,
-    .afA,
-    .agJ,
-    .adp, .h9, .adI, .aHn
-    
-    {
-        background-color: #1c1c1c !important;
-    }
-    
-    .btb,
-    .zA:hover,
-    .afC {
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3),0 4px 8px 3px rgba(0, 0, 0, .15);
-    }
-    
-    
-    
-    
-    .hG.T-I-atl,
-    .hG.T-I-atl.T-I-JW, 
-    .hG.T-I-atl:focus {
-        border-color: #000 !important;
-    }
-    
-    /* message links */
-    
-    .Ol.Nk,
-    .msgb input,
-    .adI .B9, .h8,
-    .gt a {
-        color: #8bc4ff !important;
-    }
-    
-    /* toolbar */
-    .Hl,
-    .Hq,
-    .Ha,
-    [role="menuitemcheckbox"] > div > div,
-    [role="listbox"] .J-Z-M-I-J6-H > .J-Z-M-I-JG,
-    div.ajR .ajT,
-    .btC .dv,
-    .btC .aaA.a1, .btC .J-N-JX.a1,
-    .btC .aaA.e5, .aaZ .J-N-JX.e5,
-    .btC .aaA.QT, .btC .J-N-JX.QT,
-    .btC .aaA.aA7, .aaZ .J-N-JX.aA7,
-    .btC .aaA.buc, .btC .J-N-JX.buc,
-    .btC .aaA.BP, .aaZ .J-N-JX.BP,
-    .btC .aaA.a5, .btC .aaA.a2X, .aaZ .J-N-JX.a5, .aaZ .J-N-JX.a2X,
-    [role="toolbar"] [role="button"]:not(.H2):not(.Ol)
-    {
-        filter: invert(1) !important;
-    }
-        
-    
-    
-    tr.aRp:hover {
-        background-color: #333 !important;
-    }
-    
+    .gt figcaption {
+    background-color: #1c1c1c !important;
+    border-radius: 4px;
+  }
 
-    .x7,
-    form[role="search"] .gssb_m tr:hover,
-    .agJ:hover {
-        background-color: #141313 !important;
-    }
-    
-    
-    .J-J5-Ji.btA [role="button"] {
-        background-color: #111 !important;
-    }
-    
-    /* spam button and notice */
-    .bzx, .bzr:hover {
-        background-color: #222;
-        color: #cccccd;
-    }
+  .gsib_a.gb_jf.aJh,
+  form[role="search"] tr:hover td,
+  form[role="search"] tr:hover td div,
+  .gt
+    div:not(.aYy):not([role="button"]):not([role="menu"]):not(
+      [role="menuitemcheckbox"]
+    ):not([role="menuitem"]),
+  .gt td,
+  .gt span,
+  .gt table,
+  .gt h1,
+  .gt h2,
+  .gt h3,
+  .gt h4,
+  .gt h5,
+  .gt h6,
+  .gt table tbody tr td,
+  .gt a,
+  .gt p,
+  .gt ul,
+  .gt li,
+  .gt center,
+  [bgcolor] *,
+  .gstt tbody tr td table tbody tr:hover,
+  form[role="search"] div .gstt tbody tr:hover {
+    background-color: transparent !important;
+  }
+
+  .afC,
+  .afA,
+  .agJ,
+  .adp,
+  .h9,
+  .adI,
+  .aHn {
+    background-color: #1c1c1c !important;
+  }
+
+  .btb,
+  .zA:hover,
+  .afC {
+    box-shadow:
+      0 1px 3px 0 rgba(0, 0, 0, 0.3),
+      0 4px 8px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .hG.T-I-atl,
+  .hG.T-I-atl.T-I-JW,
+  .hG.T-I-atl:focus {
+    border-color: #000 !important;
+  }
+
+  /* message links */
+
+  .Ol.Nk,
+  .msgb input,
+  .adI .B9,
+  .h8,
+  .gt a {
+    color: #8bc4ff !important;
+  }
+
+  /* toolbar */
+  .Hl,
+  .Hq,
+  .Ha,
+  [role="menuitemcheckbox"] > div > div,
+  [role="listbox"] .J-Z-M-I-J6-H > .J-Z-M-I-JG,
+  div.ajR .ajT,
+  .btC .dv,
+  .btC .aaA.a1,
+  .btC .J-N-JX.a1,
+  .btC .aaA.e5,
+  .aaZ .J-N-JX.e5,
+  .btC .aaA.QT,
+  .btC .J-N-JX.QT,
+  .btC .aaA.aA7,
+  .aaZ .J-N-JX.aA7,
+  .btC .aaA.buc,
+  .btC .J-N-JX.buc,
+  .btC .aaA.BP,
+  .aaZ .J-N-JX.BP,
+  .btC .aaA.a5,
+  .btC .aaA.a2X,
+  .aaZ .J-N-JX.a5,
+  .aaZ .J-N-JX.a2X,
+  [role="toolbar"] [role="button"]:not(.H2):not(.Ol) {
+    filter: invert(1) !important;
+  }
+
+  tr.aRp:hover {
+    background-color: #333 !important;
+  }
+
+  .x7,
+  form[role="search"] .gssb_m tr:hover,
+  .agJ:hover {
+    background-color: #141313 !important;
+  }
+
+  .J-J5-Ji.btA [role="button"] {
+    background-color: #111 !important;
+  }
+
+  /* spam button and notice */
+  .bzx,
+  .bzr:hover {
+    background-color: #222;
+    color: #cccccd;
+  }
+
+  /* The button areas for quick replies, forwards, share in chat */
+  .btDi4d {
+    background-color: #222;
+  }
+
+  /* Button to expand replies */
+  div.ajR {
+    background-color: #222;
+  }
+
+  /* Dark compose button */
+  .z0 > .L3 {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .z0 > .L3:hover {
+    background-color: #333;
+  }
 }
