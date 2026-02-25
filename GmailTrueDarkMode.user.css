@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Gmail True Dark Mode
 @namespace      github.com/aalvarado/gmail-true-dark
-@version        1.0.3
+@version        1.0.4
 @description    True dark mode builds on top of Gmails dark mode but for the rest of the elements
 @author         @aalvarado
 ==/UserStyle== */
@@ -146,8 +146,7 @@
   .gsib_a.gb_jf.aJh,
   form[role="search"] tr:hover td,
   form[role="search"] tr:hover td div,
-  .gt
-    div:not(.aYy):not([role="button"]):not([role="menu"]):not(
+  .gt div:not(.aYy):not([role="button"]):not([role="menu"]):not(
       [role="menuitemcheckbox"]
     ):not([role="menuitem"]),
   .gt td,
@@ -272,5 +271,12 @@
 
   .z0 > .L3:hover {
     background-color: #333;
+  }
+    
+  /* Gmail logo and Side panel */
+  [aria-label="Gmail"],
+  [aria-label="Side panel"]
+  {
+    filter: grayscale(0.15)
   }
 }
